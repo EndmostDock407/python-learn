@@ -1,0 +1,9 @@
+# crear entorno virtual
+python -m venv env  # crear carpeta para el entorno virtual
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process # dar permisos
+#moverse a la carpeta Src o Scripts 
+ .\activate 
+# activar el entorno virtual
+pip install python-dateutil #Si ejecuta el comando anterior, descargara e instalara dateutil, un paquete para analizar el formato de archivo .yml. 
+pip freeze #ver que paquetes estan instalados 
+deactivate #cerrar entorno virtual
